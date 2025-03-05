@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCG HTML Capstone</title>
+
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>TCG HTML Capstone</h1>
+    
+    <h2>HTML Form</h2>
+    <form target="_self" method="get">
+        <label for="fname">First Name:</label>
+        <input id="fname" name="fname" type="text" placeholder="First Name">
+
+        <label for="lname">Last Name:</label>
+        <input id="lname" name="lname" type="text" placeholder="Last Name">
+
+        <label for="age">Age</label>
+        <input id="age" type="number" placeholder="Age">
+
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email">
+
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd" placeholder="Password">
+
+        <h3>Gender:</h3>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+
+        <h3>Select your device:</h3>
+        <input type="checkbox" id="macbook" name="macbook" value="macbook">
+        <label for="macbook">Macbook</label>
+        <input type="checkbox" id="iphone" name="iphone" value="iphone">
+        <label for="iphone">iPhone</label>
+        <input type="checkbox" id="ipad" name="ipad" value="ipad">
+        <label for="ipad">iPad</label>
+        
+        <br>
+
+        <label for="source">How did you hear about us?</label>
+        <select id="source" name="source">
+            <option value="search" selected>Search Engine</option>
+            <option value="social">Social media</option>
+            <option value="ads">Online ads</option>
+        </select>
+
+        <br>
+
+        <label for="signUp">Sign me up News Letter</label>
+        <input type="checkbox" id="signUp" name="signUp" value="sign up">
+
+        <br>
+        <input type="submit" value="Sign Up">
+    </form>
+
+    <h2>Table</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Harry Depp</td>
+            <td>28</td>
+            <td>Britian</td>
+        </tr>
+        <tr>
+            <td>John Smith</td>
+            <td>35</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Ram Krishna</td>
+            <td>19</td>
+            <td>Nepal</td>
+        </tr>
+    </table>
+</body>
+</html>
